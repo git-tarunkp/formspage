@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import "../CSSfiles/pagea.css"
+import "../CSSfiles/Pagea.css"
 import image from "../assets/image.png"
 import image2 from "../assets/Screenshot 2024-04-14 184158.png"
 import image3 from "../assets/Screenshot 2024-04-15 171040.png"
