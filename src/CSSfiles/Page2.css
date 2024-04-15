@@ -1,0 +1,62 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .option-block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .option-block.selected {
+    border-color: rgb(66, 250, 5); /* Change border color when selected */
+    box-shadow: 0 0 5px rgb(139, 143, 143); /* Add shadow effect when selected */
+  }
+
+  /* next button */
+  .next-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  .next-button:disabled {
+    background-color: lightgray; 
+    color: gray; 
+  }
+  
+  
+  .next-button:hover {
+    background-color: darkgray;
+  }
+
+
+  /* progrees bar */
+
+  .progress-container {
+    margin-left: auto; 
+  margin-right: auto; 
+    width: 1000px;
+    margin-top: 45px;
+  }
+  
+  .progress-bar {
+    
+    height: 3px;
+    background-color: #ccc;
+   
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: #118d28; 
+  }
